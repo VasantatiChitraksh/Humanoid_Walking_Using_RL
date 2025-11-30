@@ -4,14 +4,6 @@
 
 This repository houses a comprehensive framework for training a MuJoCo Humanoid agent to achieve stable bipedal locomotion. By bridging **Computer Vision** with **Deep Reinforcement Learning (DRL)**, this project moves beyond random initialization. We implement a pipeline that extracts skeletal posture from a 2D image of a human and translates it into the 3D joint space of a robot, allowing the agent to "mimic" a starting pose before initiating its walking gait via Proximal Policy Optimization (PPO).
 
-## 📊 Visual Results
-
-### Gait Demonstration
-
-Below is the agent recovering from the initialized pose and establishing a stable walking rhythm.
-
-> _High-fidelity video available at `/videos/demo.mp4`_
-
 ## 📂 Project Architecture
 
 Based on the file structure, the project is organized as follows:
@@ -32,7 +24,7 @@ Humanoid_lib/
 ├── get_joint_data.py        # Debug tool for inspecting Mujoco joint limits
 ├── test_ppo.py              # INFERENCE: Runs the visualizer with the trained model
 ├── train_ppo.py             # TRAINING: Starts the PPO training loop
-├── req.txt                  # Dependency list
+├── requirements.txt                  # Dependency list
 └── model.pt                 # Default pre-trained model
 ```
 
@@ -120,5 +112,11 @@ Pose: ![Module2 Pose](https://github.com/user-attachments/assets/cd67f6dc-130d-4
 Output: ![Module2 Robot](https://github.com/user-attachments/assets/e1fa85a7-0470-4764-98be-e818a82b2a06)
 
 #### Module 3
-![Module3_Video](https://drive.google.com/file/d/1TD7cbYFNNDfeI3FOIVPN7zyb5eyQ5kyl/view?usp=drive_link)
 
+Walking Robot: ![Module3_Robot](https://github.com/user-attachments/assets/dd9205bd-2f77-46b2-aa95-084001cec852)
+
+
+
+
+#### Module 3
+![Module3_Video](https://drive.google.com/file/d/1TD7cbYFNNDfeI3FOIVPN7zyb5eyQ5kyl/view?usp=drive_link)
