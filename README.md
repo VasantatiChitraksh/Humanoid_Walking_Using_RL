@@ -12,8 +12,8 @@ Based on the file structure, the project is organized as follows:
 Humanoid_lib/
 ├── checkpoints/             # Storage for model weights saved during training
 ├── lib/                     # Core RL implementation
-│   ├── DQN_Agent.py         # Agent class containing Actor-Critic networks
-│   ├── buffer_DQN.py        # Replay buffer for trajectory storage & GAE calculation
+│   ├── PPO_Agent.py         # Agent class containing Actor-Critic networks
+│   ├── buffer_PPO.py        # Replay buffer for trajectory storage & GAE calculation
 │   └── utils.py             # Environment wrappers and logging utilities
 ├── logs/                    # TensorBoard event logs
 ├── pose_estimation/         # Computer Vision Pipeline
