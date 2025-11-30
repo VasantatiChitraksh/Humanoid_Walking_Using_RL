@@ -25,7 +25,6 @@ dist/
 # PyTorch / Machine Learning
 # ---------------------------
 # model weights
-*.pt
 *.pth
 *.onnx
 
@@ -55,19 +54,11 @@ videos/
 *.avi
 *.gif
 
-# ---------------------------
-# Local outputs
-# ---------------------------
-out.jpg
-*.jpg
-*.png
-
 # pose-estimation generated files
 pose_estimation/output/
 pose_estimation/results/
 
 # YOLO cache
-yolov8m.pt
 yolo_cache/
 
 # ---------------------------
