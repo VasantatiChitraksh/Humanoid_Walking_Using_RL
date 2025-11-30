@@ -1,0 +1,94 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# ---------------------------
+# PyTorch / Machine Learning
+# ---------------------------
+# model weights
+*.pt
+*.pth
+*.onnx
+
+# training logs
+logs/
+tensorboard/
+
+# checkpoints
+checkpoints/
+*.ckpt
+
+# large data files
+*.npz
+*.npy
+*.pkl
+
+# ---------------------------
+# MuJoCo / Gym
+# ---------------------------
+MUJOCO_LOG.TXT
+*.mjb
+*.xml.tmp
+
+# cached env recordings
+videos/
+*.mp4
+*.avi
+*.gif
+
+# ---------------------------
+# Local outputs
+# ---------------------------
+out.jpg
+*.jpg
+*.png
+
+# pose-estimation generated files
+pose_estimation/output/
+pose_estimation/results/
+
+# YOLO cache
+yolov8m.pt
+yolo_cache/
+
+# ---------------------------
+# Development / Editor files
+# ---------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------
+# Git
+# -----------------------------------
+# Local Git folders
+.gitignore~
+*.swp
+*.swo
