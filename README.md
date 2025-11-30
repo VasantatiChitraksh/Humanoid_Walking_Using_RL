@@ -112,11 +112,5 @@ Pose: ![Module2 Pose](https://github.com/user-attachments/assets/cd67f6dc-130d-4
 Output: ![Module2 Robot](https://github.com/user-attachments/assets/e1fa85a7-0470-4764-98be-e818a82b2a06)
 
 #### Module 3
-
 Walking Robot: ![Module3_Robot](https://github.com/user-attachments/assets/dd9205bd-2f77-46b2-aa95-084001cec852)
 
-
-
-
-#### Module 3
-![Module3_Video](https://drive.google.com/file/d/1TD7cbYFNNDfeI3FOIVPN7zyb5eyQ5kyl/view?usp=drive_link)
